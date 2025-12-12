@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $country_code = $_POST['country_code'] ?? '';
     $country_name = $_POST['country_name'] ?? '';
 
-    $to = "botmediadigitalmarketing@gmail.com";
+    $to = "avadhut@bricspace.com";
     $subject = "New Lead Notification - Website";
 
     $message = "

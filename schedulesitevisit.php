@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = $_POST['modal_my_mobile2'] ?? '';
    $date_time = $_POST['date_time'];
 
-    $to = "botmediadigitalmarketing@gmail.com";
+    $to = "avadhut@bricspace.com";
     $subject = "New Lead Notification - Website";
 
     $message = "
@@ -37,7 +37,7 @@ if(mail($to,$subject,$message,$headers)) //Send an Email. Return true on success
 {
 echo 
 
-"<script>window.location.href='https://api.whatsapp.com/send?phone=+917767093332&text=Hi, I saw the project details and scheduled my visit to Godrej Elaris, kindly call me back, I am interested in buying a new property.';</script>";
+"<script>window.location.href='https://api.whatsapp.com/send?phone=+918956468300&text=Hi, I saw the project details and scheduled my visit to Lodha at MIDC Hinjewadi Phase 3, Pune, kindly call me back, I am interested in buying a new property.';</script>";
 }
 else
 {
